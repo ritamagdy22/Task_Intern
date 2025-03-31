@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "534307538138",
+    "project_id": "fir-auth-intern",
+    "storage_bucket": "fir-auth-intern.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534307538138:android:eeef2ba6c6896070d811e3",
+        "android_client_info": {
+          "package_name": "com.example.rita_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534307538138-solkonkgc8k9aaislj08v1r0t9n749cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdDPxbIPssl9fl8eM2SknQTmiutmkSu7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534307538138-solkonkgc8k9aaislj08v1r0t9n749cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
