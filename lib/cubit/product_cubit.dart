@@ -21,8 +21,8 @@ class ProductCubit extends Cubit<ProductState> {
             .map((productData) => Product.fromJson(productData))
             .toList();
 
-        allProducts = products;  // ✅ تخزين كل المنتجات هنا لاستخدامها في البحث
-        filteredProducts = products; // ✅ عرض المنتجات في البداية
+        allProducts = products;  
+        filteredProducts = products;
 
         emit(ProductLoadedSucessfully(products: filteredProducts));
       } else {
@@ -35,7 +35,7 @@ class ProductCubit extends Cubit<ProductState> {
 
   void searchProduct(String query) {
     if (query.isEmpty) {
-      filteredProducts = allProducts; // ✅ استرجاع جميع المنتجات عند مسح البحث
+      filteredProducts = allProducts; 
     } else {
       filteredProducts = allProducts.where((product) =>
           product.title.toLowerCase().contains(query.toLowerCase())).toList();

@@ -41,7 +41,7 @@ class _ProductScreenState extends State<ProductScreen> {
             ),
           ),
 
-          // 📋 عرض المنتجات
+         
           Expanded(
             child: BlocBuilder<ProductCubit, ProductState>(
               builder: (context, state) {
